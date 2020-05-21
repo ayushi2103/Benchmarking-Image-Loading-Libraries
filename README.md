@@ -1,13 +1,11 @@
 # Benchmarking-Image-Loading-Libraries
 
-RESULTS
+##RESULTS
 
-running stb_image save... done! (5118.49 ms)
-
-running stb_image resize... done! (216.53 ms)
-
-name              time           std         iterations  
--------------------------------------------------------
-stb_image save    12363013.0 ns  ±  13.20 %  400         
-stb_image resize  412103.0 ns    ± 524.73 %  400         
-Program ended with exit code: 0
+running stb_image save... done! (1473.56 ms)
+running stb_image resize... done! (1803.79 ms)
+        
+| name                | time           | std         | iterations  
+| --------------------|:--------------:|------------:|-------------:
+| stb_image save      | 12710928.5 ns  | ±   3.91 %  | 102        
+| stb_image resize    | 310301.0 ns    | ±  17.91 %  | 4337         
