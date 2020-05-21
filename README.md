@@ -1,6 +1,6 @@
 # Benchmarking-Image-Loading-Libraries
 
-##RESULTS
+## RESULTS
 
 running stb_image save... done! (1473.56 ms)
 running stb_image resize... done! (1803.79 ms)
