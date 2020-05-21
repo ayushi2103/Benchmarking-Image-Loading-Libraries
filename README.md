@@ -3,6 +3,7 @@
 RESULTS
 
 running stb_image save... done! (5118.49 ms)
+
 running stb_image resize... done! (216.53 ms)
 
 name              time           std         iterations  
