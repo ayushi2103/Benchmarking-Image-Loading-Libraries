@@ -33,7 +33,7 @@ running pillow transpose... done! (1576.69 ms)
 
 | name                  | time           | std         | iterations  
 | ----------------------|:--------------:|------------:|-------------:
-| Pillow Image Save     | 81979269.0 ns  | ±   1.44 %  | 15        
-| Pillow Image Resize   | 12023.0 ns     | ±  63.67 %  | 102392         
-| Pillow Image Transpose| 7561754.0 ns   | ±   7.54 %  | 176        
-| Pillow Image Crop     | 13618.0 ns     | ±  38.52 %  | 97130        
+| Pillow Image Save     | 7212903.0 ns   | ±   8.40 %  | 191         
+| Pillow Image Resize   | 1720670.5 ns   | ±  10.67 %  | 792      
+| Pillow Image Transpose| 193612.0 ns    | ±  22.41 %  | 6197         
+| Pillow Image Crop     | 1894448.0 ns   | ±  20.44 %  | 717        
