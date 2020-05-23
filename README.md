@@ -40,7 +40,7 @@ running pillow transpose... done! (1576.69 ms)
 
 ### Skimage
 
-running skimage save... done! (3114.94 ms)
-running skimage resize... done! (3180.92 ms)
-running skimage transpose... done! (1626.31 ms)
+running skimage save... done! (3114.94 ms)  
+running skimage resize... done! (3180.92 ms)  
+running skimage transpose... done! (1626.31 ms)  
 running skimage crop... done! (2389.60 ms)
