@@ -34,8 +34,6 @@ benchmark("pillow transpose"){
     pilImageTranspose()
 }
 
-
-
 Benchmark.main()
 
 

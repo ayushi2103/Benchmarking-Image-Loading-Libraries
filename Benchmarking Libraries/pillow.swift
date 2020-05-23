@@ -31,8 +31,8 @@ public func pilImageCrop(){
     let newHeight = Double(pilImage.size[1])!/2
     let box = [0.0, 0.0, newWidth, newHeight]
     let cropImage = pilImage.crop(box)
-    let cropImagePath = "/Users/ayushitiwari/Downloads/pilCropNew.jpg"
-    cropImage.save(cropImagePath)
+//    let cropImagePath = "/Users/ayushitiwari/Downloads/pilCropNew.jpg"
+//    cropImage.save(cropImagePath)
 }
 
 
