@@ -26,14 +26,31 @@ benchmark("pillow resize"){
     pilImageResize()
 }
 
-benchmark("pillow crop"){
-    pilImageCrop()
-}
-
 benchmark("pillow transpose"){
     pilImageTranspose()
 }
 
+benchmark("pillow crop"){
+    pilImageCrop()
+}
+
+benchmark("skimage save"){
+    skimageSave()
+}
+
+benchmark("skimage resize"){
+    skimageResize()
+}
+
+benchmark("skimage transpose"){
+    skimageTranspose()
+}
+
+benchmark("skimage crop"){
+    skimageCrop()
+}
+
 Benchmark.main()
+
 
 

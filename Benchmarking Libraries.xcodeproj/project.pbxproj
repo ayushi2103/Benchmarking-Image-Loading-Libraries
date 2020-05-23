@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8A32B8624795F3100A7A103 /* pillow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32B8524795F3100A7A103 /* pillow.swift */; };
+		E8A32B8824798D2B00A7A103 /* skimage_benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A32B8724798D2A00A7A103 /* skimage_benchmark.swift */; };
 		E8FD49352476E84F00DAE288 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FD49342476E84F00DAE288 /* main.swift */; };
 		E8FD493D2476E90100DAE288 /* Benchmark in Frameworks */ = {isa = PBXBuildFile; productRef = E8FD493C2476E90100DAE288 /* Benchmark */; };
 		E8FD49412476E95300DAE288 /* Batcher in Frameworks */ = {isa = PBXBuildFile; productRef = E8FD49402476E95300DAE288 /* Batcher */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		E8A32B8524795F3100A7A103 /* pillow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pillow.swift; sourceTree = "<group>"; };
+		E8A32B8724798D2A00A7A103 /* skimage_benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skimage_benchmark.swift; sourceTree = "<group>"; };
 		E8FD49312476E84F00DAE288 /* Benchmarking Libraries */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Benchmarking Libraries"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FD49342476E84F00DAE288 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E8FD49522476E96500DAE288 /* Benchmarking Libraries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Benchmarking Libraries.entitlements"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				E8FD49342476E84F00DAE288 /* main.swift */,
 				E8FD49532476E9BD00DAE288 /* stb_image.swift */,
 				E8FD49562476EA2000DAE288 /* Image.swift */,
+				E8A32B8724798D2A00A7A103 /* skimage_benchmark.swift */,
 				E8A32B8524795F3100A7A103 /* pillow.swift */,
 			);
 			path = "Benchmarking Libraries";
@@ -181,6 +184,7 @@
 				E8FD49572476EA2000DAE288 /* Image.swift in Sources */,
 				E8A32B8624795F3100A7A103 /* pillow.swift in Sources */,
 				E8FD49542476E9BD00DAE288 /* stb_image.swift in Sources */,
+				E8A32B8824798D2B00A7A103 /* skimage_benchmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
