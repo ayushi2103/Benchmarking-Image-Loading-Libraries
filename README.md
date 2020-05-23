@@ -23,3 +23,17 @@ running Swim Image Crop... done! (1602.30 ms)
 | Swim Image Resize   | 12023.0 ns     | ±  63.67 %  | 102392         
 | Swim Image Transpose| 7561754.0 ns   | ±   7.54 %  | 176        
 | Swim Image Crop     | 13618.0 ns     | ±  38.52 %  | 97130        
+
+### Pillow
+
+running pillow save... done! (2050.24 ms)  
+running pillow resize... done! (1607.05 ms)  
+running pillow crop... done! (1644.95 ms)  
+running pillow transpose... done! (1576.69 ms)
+
+| name                | time           | std         | iterations  
+| --------------------|:--------------:|------------:|-------------:
+| Swim Image Save     | 81979269.0 ns  | ±   1.44 %  | 15        
+| Swim Image Resize   | 12023.0 ns     | ±  63.67 %  | 102392         
+| Swim Image Transpose| 7561754.0 ns   | ±   7.54 %  | 176        
+| Swim Image Crop     | 13618.0 ns     | ±  38.52 %  | 97130        
