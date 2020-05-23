@@ -18,5 +18,24 @@ benchmark("stb_image resize", settings: .iterations(400)){
     imageResize()
 }
 
+benchmark("pillow save"){
+    pilImageSave()
+}
+
+benchmark("pillow resize"){
+    pilImageResize()
+}
+
+benchmark("pillow crop"){
+    pilImageCrop()
+}
+
+benchmark("pillow transpose"){
+    pilImageTranspose()
+}
+
+
+
 Benchmark.main()
+
 

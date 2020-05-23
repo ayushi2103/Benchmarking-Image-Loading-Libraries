@@ -20,5 +20,5 @@ public func imageSave(){
     image.save(to: newURL, format: .rgb, quality: 95)
 }
 public func imageResize(){
-    var newImage = image.resized(to: (32, 32))
+    _ = image.resized(to: (32, 32))
 }
