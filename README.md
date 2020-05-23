@@ -36,7 +36,7 @@ running pillow transpose... done! (1576.69 ms)
 | Pillow Image Save     | 7212903.0 ns   | ±   8.40 %  | 191         
 | Pillow Image Resize   | 1720670.5 ns   | ±  10.67 %  | 792      
 | Pillow Image Transpose| 193612.0 ns    | ±  22.41 %  | 6197         
-| Pillow Image Crop     | 36903.0 ns  ns | ±  43.87 %  | 33784        
+| Pillow Image Crop     | 36903.0 ns     | ±  43.87 %  | 33784        
 
 ### Skimage
 
@@ -44,3 +44,11 @@ running skimage save... done! (3114.94 ms)
 running skimage resize... done! (3180.92 ms)  
 running skimage transpose... done! (1626.31 ms)  
 running skimage crop... done! (2389.60 ms)
+
+| name                   | time           | std         | iterations  
+| -----------------------|:--------------:|------------:|-------------:
+| Skimage Image Save     | 12346797.0 ns  | ±   8.40 %  | 191         
+| Skimage Image Resize   | 53889794.0 ns  | ±  10.67 %  | 792      
+| Skimage Image Transpose| 20048989.5 ns  | ±  22.41 %  | 6197         
+| Skimage Image Crop     | 70566.0 ns     | ±  43.87 %  | 33784        
+
